@@ -1,0 +1,23 @@
+.products_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+.wrapper {
+  /* width: 25%; */
+  margin: 5px;
+  flex-grow: 1;
+  justify-content: space-evenly;
+  text-align: center;
+  /* overflow: hidden; */
+  border-bottom: 2px solid grey;
+}
+.product_img {
+  width: 370px;
+  height: 300px;
+}
+.product_title {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(68, 68, 253);
+}
